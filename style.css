@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    margin: 0;
+}
+
+.abertura{
+    padding: 1em;
+    background-color: rgb(222, 233, 233);
+}
+
+h1{
+    max-width: 620px;
+    font-size: 3rem;
+    margin: 4rem auto;
+    text-align: center;
+}
+
+.corpo-texto{
+    max-width: 580px;
+    margin: 1rem auto;
+    font-size: 1.2rem;
+}
+
+.area-grafico{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.area-grafico > div{
+    width: 400px;
+    border: 1px solid hotpink;
+    height: 400px;
+}
